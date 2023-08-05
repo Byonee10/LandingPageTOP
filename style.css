@@ -1,0 +1,20 @@
+.header{
+    color:white
+}
+.header,.main{
+    background-color: #1f2937;
+}
+.main>h1{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight:800;
+}
+.main>p{
+    font-size:18px;
+    color: #e5e7eb;
+}
+.header>p{
+    font-size: 24px;
+    color:#F9FAF8
+}
+
