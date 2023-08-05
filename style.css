@@ -16,6 +16,7 @@
 .header>p{
     font-size: 24px;
     color:#F9FAF8
+    
 }
 button,.signup-container{
     background-color: #3882f6;
@@ -56,4 +57,13 @@ button,.signup-container{
 .quote-author{
     margin-top: 60px;
     font-weight: bold;
+}
+.header{padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+    gap:10px;
 }
