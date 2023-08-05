@@ -43,7 +43,17 @@ button,.signup-container{
     flex-direction: column;
     justify-content: space-between;
 }
-.card{
+.cards{
     display: flex;
     justify-content: center;
+    gap:50px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-author{
+    margin-top: 60px;
+    font-weight: bold;
 }
