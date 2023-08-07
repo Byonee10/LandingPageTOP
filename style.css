@@ -57,6 +57,7 @@ button,.signup-container{
 }
 .quote-author{
     margin-top: 60px;
+    margin-right: 10px;
     font-weight: bold;
 }
 .header{
@@ -68,6 +69,7 @@ button,.signup-container{
 .headerlinks{
     display: flex;
     gap:10px;
+    padding-right: 50px;
 }
 .main{
     margin-top: -50px;
@@ -80,16 +82,22 @@ button,.signup-container{
 .main-container-left>p{
     font-size:18px;
     color: #e5e7eb;
+    margin-left: 10px;
 }
 .main-container-left{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 300px;
+    flex-shrink: 0;
 }
 .background-image>img{
     margin:30px;
     width: 350px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
 }   
 
 a{
@@ -105,8 +113,12 @@ a{
     align-items: center;
 }
 .signup-container>button{
+    border: solid white;
+}
+button{
     height:40px;
     width: 80px;
     border-radius: 10px;
-    border: solid;
+    border: solid black;
+    
 }
