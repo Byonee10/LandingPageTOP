@@ -43,7 +43,13 @@ button,.signup-container{
     display: flex;
     justify-content: center;
     gap:50px;
+    
 }
+.card>img{border:solid;
+    width:150px;
+    height:auto;
+ }
+
 .quote{
     display: flex;
     justify-content: center;
@@ -80,13 +86,27 @@ button,.signup-container{
     flex-direction: column;
     align-items: center;
 }
-.background-image{
-    background-color: #e5e7eb;
-    padding:50px;
-    margin-right:30px;
-}
+.background-image>img{
+    margin:30px;
+    width: 350px;
+    height: 200px;
+}   
 
 a{
     text-decoration:none;
     color:#F9FAF8;
+}
+.signup-container{
+    border-radius: 25px;
+    padding: 20px;
+    margin:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-container>button{
+    height:40px;
+    width: 80px;
+    border-radius: 10px;
+    border: solid;
 }
